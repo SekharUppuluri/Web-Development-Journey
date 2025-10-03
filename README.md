@@ -45,19 +45,19 @@ Explore topic folders (notes, practical drills, mini-projects).
 
 **Skills (Active / Upcoming)**  
 ![HTML5](https://img.shields.io/badge/HTML5-Active-E34F26?logo=html5&logoColor=white)
-![CSS3 (Next)](https://img.shields.io/badge/CSS3-Next-1572B6?logo=css3&logoColor=white)
-![JavaScript (Upcoming)](https://img.shields.io/badge/JavaScript-Upcoming-F7DF1E?logo=javascript&logoColor=000)
+![CSS3 (Next)](https://img.shields.io/badge/CSS3-Active-1572B6?logo=css3&logoColor=white)
+![JavaScript (Upcoming)](https://img.shields.io/badge/JavaScript-Next-F7DF1E?logo=javascript&logoColor=000)
 ![React (Upcoming)](https://img.shields.io/badge/React-Upcoming-20232A?logo=react&logoColor=61DAFB)
 
 **Learning Status**  
-![Phase 1 Complete](https://img.shields.io/badge/Phase%201-Completed-brightgreen)
-![Current Focus-HTML Semantics](https://img.shields.io/badge/Focus-HTML%20Semantics-orange)
-![Next-CSS Layouts](https://img.shields.io/badge/Next-CSS%20Layouts-blue)
+![Phase 2 Complete](https://img.shields.io/badge/Phase%202-Completed-brightgreen)
+![Current Focus-CSS Layouts](https://img.shields.io/badge/Focus-CSS%20Layouts-blue)
+![Next-](https://img.shields.io/badge/Next-JavaScript%20Layouts-yellow)
 ![Learning-Active](https://img.shields.io/badge/Learning-Active-blueviolet)
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--02-444)
 
 **Repo**  
-![Progress](https://img.shields.io/badge/Progress-1_of_13_phases-0052CC)
+![Progress](https://img.shields.io/badge/Progress-2_of_13_phases-0052CC)
 ![Projects](https://img.shields.io/badge/Projects-0_Completed-blue)
 ![Last Commit](https://img.shields.io/github/last-commit/SekharUppuluri/Web-Development-Journey?color=0A7ACA)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
@@ -95,8 +95,8 @@ Pattern: **notes.md** = core explanations • **practical.md** = drills • **mi
 | Phase                      | Status      | Intent                            | Evidence Target                     |
 | -------------------------- | ----------- | --------------------------------- | ----------------------------------- |
 | 01. Web Basics             | ✅          | Network + browser fundamentals    | Request trace + TLS + caching notes |
-| 02. HTML                   | In Progress | Semantics + accessibility         | Landmark + form audit               |
-| 03. CSS                    | Pending     | Layout + responsive systems       | Flex/Grid layout lab                |
+| 02. HTML                   |  ✅         | Semantics + accessibility         | Landmark + form audit               |
+| 03. CSS                    | In Progress     | Layout + responsive systems       | Flex/Grid layout lab                |
 | 04. JS Fundamentals        | Pending     | Language core + DOM + event loop  | Closure + event loop demo           |
 | 05. Advanced JS            | Pending     | Async patterns + modularity       | Async flow scenarios                |
 | 06. Git & GitHub           | Pending     | Clean history + collaboration     | Branch strategy doc                 |
