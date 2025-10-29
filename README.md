@@ -126,9 +126,7 @@ Pattern: **notes.md** = core explanations • **practical.md** = drills • **mi
 ---
 
 ## 📚 Core Resources
-
-- 
-- 
+ 
 - MDN Web Docs
 - RFCs / official docs / browser DevTools experiments
 
