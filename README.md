@@ -150,4 +150,4 @@ Licensed under the **[MIT License](LICENSE)**. You may use, adapt, and reference
 - 🐙 [GitHub](https://github.com/SekharUppuluri)
 - 💼 [LinkedIn](https://www.linkedin.com/in/chandrasekharuppuluri)
 
-⭐ If this helped you, feel free to **star** the repo or **follow** for updates!
+⭐ If this helped you, feel free to **star** the repo
