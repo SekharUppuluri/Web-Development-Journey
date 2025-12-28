@@ -1,6 +1,6 @@
-// Varaibles in JavaScript
+// Variables in JavaScript
 
-// variables are containers for storing data values  or references to data values or named storage
+// variables are containers for storing data values  or references to data values or named storage AND They are case-sensitive!
 
 /* 
  ---> To declare a variable in JavaScript, we use the keywords:
