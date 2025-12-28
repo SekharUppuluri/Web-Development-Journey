@@ -17,8 +17,8 @@ console.log(`Admin: ${admin}`);
 console.log(`Name: ${name}`);
 
 
-var city = "New York";
-var city = "Los Angeles"; // redeclaration is allowed with var
+var city = "Seoul";
+var city = "Tokyo"; // redeclaration is allowed with var
 console.log(`City: ${city}`);
 
 // Using const to declare constants
