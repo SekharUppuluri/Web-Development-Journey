@@ -49,6 +49,6 @@ console.log($dollar);
 console.log(_underscore);
 console.log(camelCaseVariable);
 
-let 1stPlace = "Alice"; // Invalid: starts with a digit
-let my-variable = "Bob"; // Invalid: contains a hyphen
-let function = "Charlie"; // Invalid: reserved keyword
+let 1stPlace = "Alice"; // Invalid - starts with a digit
+let my-variable = "Bob"; // Invalid - contains a hyphen
+let function = "Charlie"; // Invalid - reserved keyword
