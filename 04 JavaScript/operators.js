@@ -23,13 +23,13 @@ let modulus = a % b;
 let power = a ** b;
 
 console.log(
-    `Result Of Operations : 
-        Addition : ${addition}
-        Subtraction : ${subtraction}
-        Multiplication : ${multiplication}
-        Division : ${division}
-        Modulus : ${modulus}
-        Power : ${power}
+    `\nArithmetic Operations : 
+                        Addition : ${addition}
+                        Subtraction : ${subtraction}
+                        Multiplication : ${multiplication}
+                        Division : ${division}
+                        Modulus : ${modulus}
+                        Power : ${power}
 `
 );
 
@@ -44,13 +44,13 @@ let modulusEqual = c %= 4 ;
 let powerEqual = c **= 2 ;
 
 let assignResult = `
-    Assignment Operations :
-    c += 5 : ${plusEqual}
-    c -= 5 : ${minusEqual}
-    c *= 3 : ${multiplyEqual}
-    c /= 2 : ${divideEqual}
-    c %= 4 : ${modulusEqual}
-    c **= 2 : ${powerEqual}
+Assignment Operations :
+                        c += 5 : ${plusEqual}
+                        c -= 5 : ${minusEqual}
+                        c *= 3 : ${multiplyEqual}
+                        c /= 2 : ${divideEqual}
+                        c %= 4 : ${modulusEqual}
+                        c **= 2 : ${powerEqual}
 `;  
 console.log(assignResult);
 
@@ -79,15 +79,15 @@ let isGreaterEqual = x >= y ;
 let isLessEqual = x <= y ;
 
 let comparisonResult = `
-    Comparison Operations :
-    x == y : ${isEqual}
-    x === y : ${isStrictEqual}
-    x != y : ${isNotEqual}
-    x !== y : ${isStrictNotEqual}
-    x > y : ${isGreater}
-    x < y : ${isLess}
-    x >= y : ${isGreaterEqual}
-    x <= y : ${isLessEqual}
+Comparison Operations :
+                        x == y : ${isEqual}
+                        x === y : ${isStrictEqual}
+                        x != y : ${isNotEqual}
+                        x !== y : ${isStrictNotEqual}
+                        x > y : ${isGreater}
+                        x < y : ${isLess}
+                        x >= y : ${isGreaterEqual}
+                        x <= y : ${isLessEqual}
 `;
 console.log(comparisonResult);
 
@@ -100,10 +100,10 @@ let orResult = p || s ;
 let notResult = !p ;
 
 let logicalResult = `
-    Logical Operations :
-    p && s : ${andResult}
-    p || s : ${orResult}
-    !p : ${notResult}
+Logical Operations :
+                    p && s : ${andResult}
+                    p || s : ${orResult}
+                    !p : ${notResult}
 `;
 console.log(logicalResult);
 
@@ -111,21 +111,34 @@ console.log(logicalResult);
 console.log("5. Bitwise Operators");
 let m = 5;  // Binary: 0101
 let n = 3;  // Binary: 0011 
-let andBitwise = m & n ; // Bitwise AND
-let orBitwise = m | n ;  // Bitwise OR
-let xorBitwise = m ^ n ; // Bitwise XOR
-let notBitwise = ~m ;    // Bitwise NOT
-let leftShift = m << 1 ; // Left Shift
-let rightShift = m >> 1 ; // Right Shift
+let andBitwise = m & n; // Bitwise AND
+let orBitwise = m | n;  // Bitwise OR
+let xorBitwise = m ^ n; // Bitwise XOR
+let notBitwise = ~m;    // Bitwise NOT
+let leftShift = m << 1; // Left Shift
+let rightShift = m >> 1; // Right Shift
 
 let bitwiseResult = `
-    Bitwise Operations :
-    m & n : ${andBitwise}
-    m | n : ${orBitwise}
-    m ^ n : ${xorBitwise}
-    ~m : ${notBitwise}
-    m << 1 : ${leftShift}
-    m >> 1 : ${rightShift}
+Bitwise Operations :
+                    m & n : ${andBitwise}
+                    m | n : ${orBitwise}
+                    m ^ n : ${xorBitwise}
+                    ~m : ${notBitwise}
+                    m << 1 : ${leftShift}
+                    m >> 1 : ${rightShift}
 `;
 console.log(bitwiseResult);
+
+// 6. Conditional (Ternary) Operator
+console.log("6. Conditional (Ternary) Operator");
+let age = 18;
+let canVote = (age >= 18) ? "Yes, you can vote." : "No, you cannot vote.";
+console.log(`Can a person of age ${age} vote? ${canVote}\n`);
+
+// 7. Nullish Coalescing Operator
+console.log("7. Nullish Coalescing Operator");
+let userInput = null;
+let defaultValue = "Default Value";
+let finalValue = userInput ?? defaultValue;
+console.log(`The final value is: ${finalValue}`);
 
