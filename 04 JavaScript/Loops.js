@@ -3,17 +3,32 @@
 
 /*
      1. for Loop: The for loop is used when you know how many times you want to execute a statement or a block of code.
+        1. for...in Loop: The for...in loop is used to iterate over the enumerable properties of an object.
+        2. for...of Loop: The for...of loop is used to iterate over iterable objects like arrays, strings, maps, etc.
+
      2. while Loop: The while loop is used when you want to execute a block of code as long as a specified condition is true.
      3. do...while Loop: The do...while loop is similar to the while loop, but it executes the block of code once before checking the condition.
      4. break and continue Statements:
          - break: Exits the loop entirely.
          - continue: Skips the current iteration and continues with the next iteration of the loop.
+         
      5. labelled Statements: Labels can be used with break and continue to control the flow of nested loops.
 */
 
 // 1. for Loop
 for (let i = 0 ; i < 5 ; i++) {
     alert(`For Loop iteration: ${i}`);
+}
+
+// for...in Loop
+let obj = {a: 1, b: 2, c: 3};
+for (let key in obj) {
+    alert(`for...in Loop Key: ${key}, Value: ${obj[key]}`);
+}
+// for...of Loop
+let arr = [10, 20, 30];
+for (let value of arr) {
+    alert(`for...of Loop Value: ${value}`);
 }
 
 
