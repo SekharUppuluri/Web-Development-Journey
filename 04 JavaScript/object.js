@@ -48,3 +48,17 @@ let student = {
 };
 alert(student.details.major); // Accessing nested object property
 console.log(student.details.age);
+
+// Object Methods
+student.getInfo = function() {
+    return `${this.name} is ${this.details.age} years old and majors in ${this.details.major}.`;
+}
+alert(student.getInfo());
+console.log(student.getInfo());
+
+// Object.keys() and Object.values()
+let keys = Object.keys(student);
+let values = Object.values(student);
+alert(`Keys: ${keys}`);
+console.log(`Values: ${values}`);
+console.log(`Keys: ${keys}`);
