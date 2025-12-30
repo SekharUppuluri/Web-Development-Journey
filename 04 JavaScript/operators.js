@@ -91,5 +91,41 @@ let comparisonResult = `
 `;
 console.log(comparisonResult);
 
+// 4. Logical Operators
+console.log("4. Logical Operators");
+let p = true;
+let s = false;
+let andResult = p && s ;
+let orResult = p || s ;
+let notResult = !p ;
 
+let logicalResult = `
+    Logical Operations :
+    p && s : ${andResult}
+    p || s : ${orResult}
+    !p : ${notResult}
+`;
+console.log(logicalResult);
+
+// 5. Bitwise Operators
+console.log("5. Bitwise Operators");
+let m = 5;  // Binary: 0101
+let n = 3;  // Binary: 0011 
+let andBitwise = m & n ; // Bitwise AND
+let orBitwise = m | n ;  // Bitwise OR
+let xorBitwise = m ^ n ; // Bitwise XOR
+let notBitwise = ~m ;    // Bitwise NOT
+let leftShift = m << 1 ; // Left Shift
+let rightShift = m >> 1 ; // Right Shift
+
+let bitwiseResult = `
+    Bitwise Operations :
+    m & n : ${andBitwise}
+    m | n : ${orBitwise}
+    m ^ n : ${xorBitwise}
+    ~m : ${notBitwise}
+    m << 1 : ${leftShift}
+    m >> 1 : ${rightShift}
+`;
+console.log(bitwiseResult);
 
