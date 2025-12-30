@@ -54,4 +54,42 @@ let assignResult = `
 `;  
 console.log(assignResult);
 
+// 3. Comparison Operators
+console.log("3. Comparison Operators");
+let x = 15;
+let y = 20;
+/* Equal and Strict comparisons 
+    - Equal (==) checks for value equality with type coercion.
+    - Strict Equal (===) checks for both value and type equality.
+    Not Equal and Strict Not Equal
+    - Not Equal (!=) checks for value inequality with type coercion.
+    - Strict Not Equal (!==) checks for both value and type inequality.
+    Greater Than, Less Than, Greater Than or Equal To, Less Than or Equal To
+    - These operators compare two values and return a boolean result.
+*/
+let isEqual = x == y ;
+let isStrictEqual = x === y ;
+
+let isNotEqual = x != y ;
+let isStrictNotEqual = x !== y ;
+
+let isGreater = x > y ;
+let isLess = x < y ;
+let isGreaterEqual = x >= y ;
+let isLessEqual = x <= y ;
+
+let comparisonResult = `
+    Comparison Operations :
+    x == y : ${isEqual}
+    x === y : ${isStrictEqual}
+    x != y : ${isNotEqual}
+    x !== y : ${isStrictNotEqual}
+    x > y : ${isGreater}
+    x < y : ${isLess}
+    x >= y : ${isGreaterEqual}
+    x <= y : ${isLessEqual}
+`;
+console.log(comparisonResult);
+
+
 
