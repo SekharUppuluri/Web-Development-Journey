@@ -3,7 +3,7 @@
 👋 Hi, I'm **Sekhar** — documenting a deliberate path to strong **full‑stack web engineering** skills: **foundations → depth → scale**.  
 This README gives a clear snapshot of what I've **completed**, what I'm **focused on now**, and what's **coming next**.
 
-Last Updated: 2025-12-30
+Last Updated: 2026-01-02
 
 ---
 
