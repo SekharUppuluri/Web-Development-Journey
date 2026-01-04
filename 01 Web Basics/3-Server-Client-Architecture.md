@@ -1,19 +1,18 @@
 # 3. Server–Client Architecture 🧑‍💻 ↔ 🖥
 ---
 ## Table of Contents
-1. [What is Client–Server Model?](#1-what-is-clientserver-model)
-2. [Who is Client? Who is Server?](#2-who-is-client-who-is-server)
-3. [Client vs Server (Clear Comparison)](#3-client-vs-server-clear-comparison)
-4. [HTTP Request–Response Cycle ⭐](#4-http-requestresponse-cycle-⭐)       
-5. [How Browsers Act as Clients](#5-how-browsers-act-as-clients)
-6. [Web Servers & Web Hosting](#6-web-servers--web-hosting)
-7. [Client-side vs Server-side](#7-client-side-vs-server-side)
-8. [Request Headers & Response Codes](#8-request-headers--response-codes)
-9. [Why Client–Server Architecture Matters?](#9-why-clientserver-architecture-matters)
-10. [Summary](#10--summary)
+- [What is Client - Server Model?](#what-is-client---server-model)  
+- [Who is Client? Who is Server?](#who-is-client-who-is-server)  
+- [Client vs Server (Clear Comparison)](#client-vs-server-clear-comparison)  
+- [HTTP Request - Response Cycle](#http-request---response-cycle-%E2%AD%90) 
+- [How Browsers Act as Clients](#how-browsers-act-as-clients)  
+- [Web Servers & Web Hosting](#web-servers--web-hosting)  
+- [Client-side vs Server-side](#client-side-vs-server-side)  
+- [Request Headers & Response Codes](#request-headers--response-codes)   
+- [Why Client-Server Architecture Matters?](#why-client-server-architecture-matters)  
+- [Summary](#summary)
 
-
-## 1️⃣ What is Client–Server Model?
+## What is Client - Server Model?
 
 > **Client–Server architecture** is a model where **clients request resources** and **servers respond with data or services**.
 
@@ -38,7 +37,7 @@ This is the **core of the web**.
 
 ---
 
-## 2️⃣ Who is Client? Who is Server?
+## Who is Client? Who is Server?
 
 ### 🧑‍💻 Client
 
@@ -78,7 +77,7 @@ A **server** is a machine/software that:
 
 ---
 
-## 3️⃣ Client vs Server (Clear Comparison)
+## Client vs Server (Clear Comparison)
 
 | Aspect | Client | Server |
 | :--- | :--- | :--- |
@@ -90,7 +89,7 @@ A **server** is a machine/software that:
 
 ---
 
-## 4️⃣ HTTP Request–Response Cycle ⭐
+## HTTP Request - Response Cycle ⭐
 
 ### Step-by-Step Flow
 
@@ -130,7 +129,7 @@ sequenceDiagram
 
 ---
 
-## 5️⃣ How Browsers Act as Clients
+## How Browsers Act as Clients
 
 Browser is **not just a UI tool**. It is a **powerful client**.
 
@@ -155,7 +154,7 @@ When you open `https://google.com`:
 
 ---
 
-## 6️⃣ Web Servers & Web Hosting
+## Web Servers & Web Hosting
 
 ### What is a Web Server?
 
@@ -184,7 +183,7 @@ A **web server** is software that:
 
 ---
 
-## 7️⃣ Client-side vs Server-side
+## Client-side vs Server-side
 
 ### Client-Side
 * Runs in browser
@@ -207,7 +206,7 @@ A **web server** is software that:
 
 ---
 
-## 8️⃣ Request Headers & Response Codes
+## Request Headers & Response Codes
 
 ### Request Headers
 Extra information sent by client:
@@ -234,7 +233,7 @@ Extra information sent by client:
 
 ---
 
-## 9️⃣ Why Client–Server Architecture Matters?
+##  Why Client-Server Architecture Matters?
 
 ✔ Scalable  
 ✔ Secure  
@@ -245,7 +244,7 @@ Without this model → **Internet doesn’t exist**
 
 ---
 
-## 🔟  Summary 
+## Summary
 
 > Client–Server architecture is the backbone of the web where clients initiate HTTP requests and servers respond with resources. Browsers act as clients, web servers handle requests, and communication happens through HTTP using request–response cycles. Client-side focuses on UI while server-side manages logic and data.
 
