@@ -70,8 +70,15 @@ Explore topic folders (notes, practical drills, mini-projects).
 ```bash
 Web-Development-Journey/
 ├── 01-Web-Basics/
-│   ├── notes.md         # HTTP, DNS, caching, TLS, request flow
-│   ├── practical.md     # CLI + DevTools tracing drills
+│   |-- 1-How-the-Internet-Works.md
+│   |-- 2-DNS-Magic-and-Internals.md
+│   |-- 3-Servers-Clients-Architecture.md
+│   |-- 4-Internet-Protocols.md
+│   |-- 5-TCP-IP.md
+│   |-- 6-UDP-(User-Datagram-Protocol).md
+│   |-- 7-TCP-Handshakes-and-3-Way-Handshake.md
+│   |-- 8-HTTP-and-HTTPS-Protocols.md
+│   |-- README.md
 ├── 02-HTML/
 │   ├── notes.md
 │   ├── mini-project.html
