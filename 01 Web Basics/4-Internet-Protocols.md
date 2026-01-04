@@ -1,4 +1,6 @@
 # Internet Protocols
+### Navigation
+[🏠 Home](../../README.md) | [🔙 Web Basics](../01%20Web%20Basics/README.md) | [Previous: Client - Server Architecture 🔙](./3-Client-Server-Architecture.md)
 
 ## 📑 Table of Contents
 - [Introduction to Network Protocols](#introduction-to-network-protocols)
@@ -49,7 +51,7 @@ Protocols are designed to handle specific aspects of communication:
 *   **UDP (User Datagram Protocol):** Prioritizes speed (streaming, gaming).
 *   **HTTPS:** Prioritizes security.
 
-### 📦 The Protocol Stack (Interview Critical)
+### 📦 The Protocol Stack ⭐
 The Internet works in layers, not randomly. Each layer has a specific responsibility.
 
 | Layer | Protocols | Responsibility |
