@@ -2,16 +2,17 @@
 
 ## 📑 Table of Contents
 
-1. [Introduction to the Concept of the Internet](#1-introduction-to-the-concept-of-the-internet)
-2. [Overview of the World Wide Web (WWW)](#2-overview-of-the-world-wide-web-www)
-3. [How Data is Transferred Across Networks](#3-how-data-is-transferred-across-networks)
-4. [Understanding IP Addresses, Domain Names, and Routing](#4-understanding-ip-addresses-domain-names-and-routing)
-5. [Key Concepts: ISPs, Routers, DNS](#5-key-concepts-isps-routers-dns)
-6. [One-Flow Summary](#6-one-flow-summary-golden-for-interviews)
+- [Introduction to the Concept of the Internet](#introduction-to-the-concept-of-the-internet)
+- [Overview of the World Wide Web (WWW)](#overview-of-the-world-wide-web-www)
+- [How Data is Transferred Across Networks](#how-data-is-transferred-across-networks)
+- [Understanding IP Addresses, Domain Names, and Routing](#understanding-ip-addresses-domain-names-and-routing)
+- [Key Concepts: ISPs, Routers, DNS](#key-concepts-isps-routers-dns)
+- [One-Flow Summary](#one-flow-summary)
+- [The Big Picture : Diagram](#diagram-how-the-internet-works)
 
 ---
 
-## 1. Introduction to the Concept of the Internet
+## Introduction to the Concept of the Internet
 
 ### What is it?
 In simple words: **The Internet is a Network of Networks.**
@@ -38,7 +39,7 @@ It is crucial to understand what the internet is *not*:
 
 ---
 
-## 2. Overview of the World Wide Web (WWW)
+## Overview of the World Wide Web (WWW)
 
 ### What is the WWW?
 The **WWW (World Wide Web)** is a service running on the internet used to access web pages and documents. It functions primarily using **HTTP/HTTPS** protocols.
@@ -60,7 +61,7 @@ The **WWW (World Wide Web)** is a service running on the internet used to access
 
 ---
 
-## 3. How Data is Transferred Across Networks
+##  How Data is Transferred Across Networks
 
 This is the core logic of networking.
 
@@ -86,7 +87,7 @@ Data is **NOT** sent as one big file (like a physical letter). Instead, the inte
 
 ---
 
-## 4. Understanding IP Addresses, Domain Names, and Routing
+## Understanding IP Addresses, Domain Names, and Routing
 
 ### 📍 IP Address
 An **IP Address** is a unique identifier for a device on a network.
@@ -122,7 +123,7 @@ Humans cannot remember numeric IP addresses easily, so we use **Domain Names**.
 
 ---
 
-## 5. Key Concepts: ISPs, Routers, DNS
+## Key Concepts: ISPs, Routers, DNS
 
 ### 🏢 Internet Service Providers (ISPs)
 An **ISP** is a company that connects you to the internet.
@@ -159,7 +160,7 @@ Without DNS, users would have to memorize IP addresses to access websites.
 
 ---
 
-## 6. One-Flow Summary:
+##  One-Flow Summary:
 
 1.  **IP Address**: Unique identifier for a device on a network (e.g., `192.168.1.1`).
 2.  **Domain Name**: Human-friendly address mapped to an IP address (e.g., `google.com`).
