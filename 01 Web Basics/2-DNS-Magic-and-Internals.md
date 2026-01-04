@@ -2,17 +2,19 @@
 
 ## Table of Contents
 
-- [1. What is DNS (Domain Name System)?](#1-what-is-dns-domain-name-system)
-- [2. How DNS Resolves Domain Names to IP Addresses](#2-how-dns-resolves-domain-names-to-ip-addresses)
-- [3. Types of DNS Records](#3-types-of-dns-records-very-interview-important)
-- [4. DNS Hierarchy](#4-dns-hierarchy-core-concept-)
-- [5. How Browsers Query DNS to Load Websites](#5-how-browsers-query-dns-to-load-websites)
-- [6. Key Concepts](#6-key-concepts-these-impress-interviewers)
-- [7. Common Questions](#7-common-questions)
+- [What is DNS (Domain Name System)?](#what-is-dns-domain-name-system)
+- [How DNS Resolves Domain Names to IP Addresses](#how-dns-resolves-domain-names-to-ip-addresses)
+    - [Visual Flow of DNS Resolution](#visual-flow-of-dns-resolution)
+    - [Step-by-Step DNS Resolution Process](#step-by-step-dns-resolution-process)
+- [Types of DNS Records (Very Interview-Important)](#types-of-dns-records-very-interview-important)
+- [DNS Hierarchy](#dns-hierarchy)
+- [How Browsers Query DNS to Load Websites](#how-browsers-query-dns-to-load-websites)
+- [Key Concepts](#key-concepts)
+- [Common Questions](#common-questions)
 
 ---
 
-## 1️⃣ What is DNS (Domain Name System)?
+## What is DNS (Domain Name System)?
 
 DNS = **Domain Name System**
 
@@ -39,7 +41,7 @@ DNS servers store a huge database of domain names and their corresponding IP add
 
 ---
 
-## 2️⃣ How DNS Resolves Domain Names to IP Addresses
+## How DNS Resolves Domain Names to IP Addresses
 ### Visual Flow of DNS Resolution
 
 ```mermaid
@@ -100,7 +102,7 @@ www.example.com
 
 ---
 
-## 3️⃣ Types of DNS Records (Very Interview-Important)
+## Types of DNS Records (Very Interview-Important)
 
 ### 🔹 A Record
 *   Maps **domain → IPv4 address**.
@@ -135,7 +137,7 @@ example.com → mail.google.com
 
 ---
 
-## 4️⃣ DNS Hierarchy
+## DNS Hierarchy
 
 DNS works like a **tree structure** 🌳.
 
@@ -157,7 +159,7 @@ DNS works like a **tree structure** 🌳.
 
 ---
 
-## 5️⃣ How Browsers Query DNS to Load Websites
+##  How Browsers Query DNS to Load Websites
 
 ### Browser Process:
 
@@ -175,7 +177,7 @@ DNS works like a **tree structure** 🌳.
 
 ---
 
-## 6️⃣ Key Concepts
+##  Key Concepts
 
 ### 🔁 Recursive Query
 *   Resolver does **all the work**.
@@ -198,7 +200,7 @@ TTL = 300 seconds
 
 ---
 
-## 7️⃣ Common Questions
+##  Common Questions
 
 ### ❓ What happens if DNS fails?
 👉 Website won’t load (even if server is alive).
